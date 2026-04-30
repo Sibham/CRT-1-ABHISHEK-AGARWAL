@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+//global Variable
+int globalVariable = 100;
+
+
+int main() {
+    
+    //local Variable
+    int userInput;
+    cin>>userInput;
+    
+    float result;
+    result = (double)globalVariable / userInput;
+    cout<<result;
+
+    return 0;
+}
