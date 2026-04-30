@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+
+int main() {
+    
+    int s1,s2,s3;
+    cin>>s1>>s2>>s3;
+    
+    bool isEqui = (s1>0) && (s1==s2) && (s2==s3);
+    cout<<isEqui<<endl;
+
+    return 0;
+}
