@@ -9,10 +9,12 @@ int main() {
     
     cout<<"is it Day Or Night? :";
     cin>>dayOrNight;
-    cout<<"Is Motion Detected? [1 for Yes , 0 For Night :]";
-    cin>>motionDectected;
+    
     
     if(dayOrNight == "Night" ||dayOrNight == "night"){
+        cout<<"Is Motion Detected? [1 for Yes , 0 For Night :]";
+        cin>>motionDectected;
+    
         if(motionDectected){
             cout<<"TURN ON THE LED LIGHT WITH 100% BRIGHTNESS";
         }else{
