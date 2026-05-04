@@ -1,5 +1,5 @@
 
-  
+// MY APPROACH
 #include <iostream>
 using namespace std;
 int main()
@@ -19,6 +19,7 @@ int main()
     return 0;
 }
 
+//SIR APPROACH
 #include <iostream>
 using namespace std;
 int main()
