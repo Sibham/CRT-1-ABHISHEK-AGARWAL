@@ -7,17 +7,19 @@ void print(int arr[], int size){
     }
     cout<<"\n";
 }
-void InsertElement(int arr[],int size , int index , int value){
+void InsertElement(int arr[],int &size , int index , int value){
     for(int i = size ; i>index ; i--){
         arr[i] = arr[i - 1];
     }
     arr[index] = value;
+    size++;
 } 
 
 
 int main(){
     int arr[] = {10,20,30,40,50};
-    InsertElement(arr , 5 , 2,25);
-    print(arr , 6);
+    int size = 5;
+    InsertElement(arr , size , 2,25);
+    print(arr , size);
     
 }
