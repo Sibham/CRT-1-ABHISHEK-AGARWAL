@@ -7,7 +7,7 @@ int consecutiveOne(int n){
     return 1;
     
     if(n==1){
-        return 3;
+        return 2;
     }
     
     if(n==2){
